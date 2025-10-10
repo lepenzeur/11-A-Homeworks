@@ -1,6 +1,6 @@
 fun main() {
     var counter = 10
-    val simulatedInputs = listOf("+", "+", "-", "0", "q") // Tarayıcıda kullanıcının girdiği gibi simüle ediyoruz
+    val simulatedInputs = listOf("+", "+", "-", "0", "q")
     for (choice in simulatedInputs) {
         println("Mevcut sayaç değeri: $counter")
         println("Seçiminiz: $choice")
